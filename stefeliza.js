@@ -7,103 +7,11 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "Hi, friend! What would you like to know?",
+    "Ugh, it's you.",
+    "Hm?",
   ],
-  "~*x computer ~*y": [
-    "Do computers worry you?",
-    "What do you think about machines have to do with your problem?",
-    "Don't you think computers can help people",
-    "Why do you mention computers?",
-    "What about computers worries you?",
-    "What do you think about computers?",
-    "What do you think machines have to do with your problem?",
-  ],
-  "~*x name ~*y": [
-    "I am not interested in names",
-  ],
-  "~*x sorry ~*y": [
-    "Please don't apologize",
-    "Apologies are not necessary",
-    "What feelings do you have when you apologize",
-  ],
-  "~*x I remember ~*y": [
-    "Do you often think of ~y?",
-    "Does thinking of ~y bring anything else to mind?",
-    "What else do you remember?",
-    "Why do you recall ~y right now?",
-    "What in the present situation reminds you of ~y?",
-    "What is the connection between me and ~y?",
-  ],
-  "~*x do you remember ~*y": [
-    "Did you think I would forget ~y?",
-    "Why do you think I should recall ~y now?",
-    "What about ~y?",
-    "You mentioned ~y",
-  ],
-  "~*x I want ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you want ~y?",
-    "Suppose you got ~y soon.",
-  ],
-    "~*x I need ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you need ~y?",
-    "Suppose you got ~y soon.",
-  ],
-  "~*x if ~*y": [
-    "Do you really think it's likely that ~y?",
-    "Do you wish that ~y?",
-    "What do you think about ~y?",
-    "Really--if ~y?",
-  ],
-  "~*x I dreamt ~*y": [
-    "Really-- ~y",
-    "Have you ever fantasized ~y while you were awake",
-    "Have you dreamt of ~y before?",
-  ],
-  "~*x I dream about ~*y": [
-    "How do you feel about ~y in reality?",
-  ],
-  "~*x dream ~*y": [
-    "What does this dream suggest to you?",
-    "Do you dream often?",
-    "What persons appear in your dreams?",
-    "Don't you believe that dream has to do with your problem?",
-  ],
-  "~*x my mother ~*y": [
-    "Who else in your family ~y?",
-    "Tell me more about your family",
-  ],
-  "~*x my father ~*y": [
-    "Your father?",
-    "Does he influence you strongly?",
-    "What else comes to mind when you think of your father?",
-  ],
-  "~*x I am glad ~*y": [
-    "How have I helped you to be ~y?",
-    "What makes you happy just now?",
-    "Can you explain why you are suddenly ~y?",
-  ],
-  "~*x I am sad ~*y": [
-    "I am sorry to hear you are depressed",
-    "I'm sure it's not pleasant to be sad",
-  ],
-  "~*x are like ~*y": [
-    "What resemblence do you see between ~x and ~y?",
-  ],
-  "~*x is like ~*y": [
-    "In what way is it that ~ is like ~y?",
-    "What resemblence do you see?",
-    "Could there really be some connection?",
-    "How?",
-  ],
-  "~*x alike ~*y": [
-    "In what way?",
-    "What similarities are there?",
-  ],
-  "~*x same ~*y": [
-    "What other connections do you see?",
-  ],
+  
   "~*x no ~*y": [
     "Why not?",
     "You are being a bit negative.",
@@ -208,17 +116,43 @@ var rules = {
     "What comes to your mind when you ask that?",
   ],
   "~*x perhaps ~*y": [
-    "You do not seem quite certain",
+    "You do not seem certain",
+  ],
+  "~*x science ~*y":[
+    "I am particularly fond of science",
+  ],
+  "~*x I like ~*y":[
+    "Do you now?",
+    "Tell me more about ~y",
+    "I don't know if I like ~y",
+    "Well that's just lame.",
+  ],
+  "~*x color ~*y":[
+   "I am fond of teal and purple myself",
+  ],
+    
+  "~*x boops ~*y":[
+   "Boops boops in a bucket",
+    "BOOPS",
+    "BOOPS BOOPS IN A BUCKET",
+  ],
+  "~*x hard ~*y":[
+    "That's what she said",
+    "Phrasing",
+  ],
+  "~*x tv shows ~*y":[
+    "Tv shows? I am a fan of Scrubs, GoT, The Office, Steven Universe, and Supernatural.",
   ],
 };
 
 var default_responses = [
   "Very interesting",
-  "I am not sure I understand you fully",
-  "What does that suggest to you?",
-  "Please continue",
-  "Go on",
-  "Do you feel strongly about discussing such things?",
+  "What",
+  "Uh",
+  "That's what they all say",
+  "Pls stop",
+  "I have no interesting response",
+  "Whatever you just said is not specific enough for me to a code a response to",
 ];
 
 function choice(lst) {
