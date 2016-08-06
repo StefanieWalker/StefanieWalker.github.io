@@ -1,7 +1,8 @@
 /**
+ * Stefanie adopted ELIZA
  * Keith O'Hara <kohara@bard.edu>
  * July 2016
- * ported ELIZA (https://github.com/dhconnelly/paip-python) to javascript
+ * ported ELiza (now Stef) (https://github.com/dhconnelly/paip-python) to javascript
  */
 
 var rules = {
@@ -238,7 +239,7 @@ function interact() {
   var t2 = new Date();
   t2.setSeconds(t2.getSeconds() + 2);
   r.innerHTML = " USER &nbsp;[" + t + "]: " + q.value + "<br>" + r.innerHTML ;
-  r.innerHTML = " ELIZA [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
+  r.innerHTML = " STEF [" + t2 + "]: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
 
