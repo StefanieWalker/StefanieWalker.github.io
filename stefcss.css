@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    color: #800080
+    background-color: #A4D4CF;
+    color: #5F1654
 }
 
 h1{
@@ -45,7 +45,7 @@ input {
   color: white;
   background:gray;
   padding: 4px;
-  border:1px solid white;
+  border:1px #FDE8E8;
 }
 
 .redacted{
