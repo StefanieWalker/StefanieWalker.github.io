@@ -110,7 +110,6 @@ var rules = {
   ],
   "~*x what ~*y": [
     "Why do you ask?",
-    "Does that question interest you?",
     "What is it you really want to know?",
     "What do you think?",
     "What comes to your mind when you ask that?",
