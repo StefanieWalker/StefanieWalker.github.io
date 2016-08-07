@@ -171,7 +171,7 @@ function interact() {
   var t = new Date();
   var t2 = new Date();
   t2.setSeconds(t2.getSeconds() + 2);
-  r.innerHTML = " YOU: " + q.value + "<br>" + r.innerHTML ;
+  r.innerHTML = " YOU:      " + q.value + "<br>" + r.innerHTML ;
   r.innerHTML = " Stef-bot: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
