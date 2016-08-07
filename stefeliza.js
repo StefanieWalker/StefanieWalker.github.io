@@ -30,12 +30,14 @@ var rules = {
   "~*x I am ~*y": [
     "In what way are you ~y?",
     "Do you want to be ~y?",
+    "Are you really?",
   ],
   "~*x am I ~*y": [
     "Do you believe you are ~y?",
     "Would you want to be ~y?",
     "You wish I would tell you you are ~y?",
     "What would it mean if you were ~y?",
+    
   ],
   "~*x am ~*y": [
     "Why do you say 'AM?'",
@@ -56,9 +58,13 @@ var rules = {
     "Why are you interested in whether I am ~y or not?",
     "Would you prefer if I weren't ~y ?",
     "Perhaps I am ~y in your fantasies.",
+    "Maybe I am",
   ],
   "~*x you are ~*y": [
     "What makes you think I am ~y?",
+    "Thanks, I guess",
+    "Maybe i AM",
+    "I know you are but what am I",
   ],
   "~*x because ~*y": [
     "Is that the real reason?",
@@ -69,19 +75,24 @@ var rules = {
     "Perhaps I was ~y?",
     "What do you think?",
     "What if I had been ~y?",
+    "Possibly. Why do you ask?"
   ],
   "~*x I can't ~*y": [
     "Maybe you could ~y now",
     "What if you could ~y?",
+    "You could try.",
   ],
   "~*x I feel ~*y": [
     "Do you often feel ~y?"
+
   ],
   "~*x I felt ~*y": [
     "What other feelings do you have?"
   ],
   "~*x I ~*y you ~*z": [
     "Perhaps in your fantasy we ~y each other",
+    "I do not ~y you back, so, sorry",
+    "I also ~y you, comrade. platonically.",
   ],
   "~*x why don't you ~*y": [
     "Should you ~y yourself?",
@@ -142,6 +153,16 @@ var rules = {
   "~*x tv shows ~*y":[
     "Tv shows? I am a fan of Scrubs, GoT, The Office, Steven Universe, and Supernatural.",
   ],
+  
+"~*x hate *y":[
+  why all the negatibity",
+  "hate is a strong word",
+  "why do you hate ~y",
+  ],
+  
+  "~*x sex *y":[
+    "let's not go there",
+    ],
 };
 
 var default_responses = [
@@ -151,7 +172,10 @@ var default_responses = [
   "That's what they all say",
   "Pls stop",
   "I have no interesting response",
-  "Whatever you just said is not specific enough for me to a code a response to",
+  "If you say so",
+  "Let's change the subject",
+  "Uh. Well. Anyways.",
+  "Uh well...anyhoo... what do you have strong feelings about?"
 ];
 
 function choice(lst) {
