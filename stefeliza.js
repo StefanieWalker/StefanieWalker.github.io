@@ -172,7 +172,7 @@ function interact() {
   var t2 = new Date();
   t2.setSeconds(t2.getSeconds() + 2);
   r.innerHTML = " You: " + q.value + "<br>" + r.innerHTML ;
-  r.innerHTML = " StefBot: <code>" + response + "</code><br>" + r.innerHTML ;
+  r.innerHTML = " Stef-bot: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
 
