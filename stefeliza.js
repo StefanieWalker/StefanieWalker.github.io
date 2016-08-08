@@ -8,9 +8,11 @@
 var rules = {
   "~*x hello ~*y": [
     "Hi, friend! What would you like to know?",
-    "Ugh, it's you.",
-    "Hm?",
+    "Greetings, earthling. Speak your demands.",
+    "Suh.",
+    "Howdy hey, what would you like to say?",
     ],
+    
   "~*x do you like ~*y":[
     "Does anyone actually like ~y?",
     "in your dreams",
@@ -22,13 +24,12 @@ var rules = {
     
   "~*x no ~*y": [
     "Why not?",
-    "You are being a bit negative.",
-    "Are you saying 'No' just to be negative?",
+   
   ],
   "~*x I was ~*y": [
     "Were you really?",
-    "Perhaps I already knew you were ~y.",
-    "Why do you tell me you were ~y now?",
+    "Why were you ~y?",
+    "Why do you tell me you were ~y?",
   ],
   "~*x was I ~*y": [
     "What if you were ~y?",
@@ -39,37 +40,29 @@ var rules = {
     "In what way are you ~y?",
     "Do you want to be ~y?",
     "Are you really?",
+    "Why are you ~y?",
+    "It happens to the best of us.",
   ],
   "~*x am I ~*y": [
-    "Do you believe you are ~y?",
-    "Would you want to be ~y?",
-    "You wish I would tell you you are ~y?",
-    "What would it mean if you were ~y?",
+    "I think you just might be ~y, which is unfortunate",
+    "Yeah I'd say so",
+    "I would say you could fall under that category",
     
   ],
-  "~*x am ~*y": [
-    "Why do you say 'AM?'",
-    "I don't understand that",
-  ],
 
-  "~*x is ~*y": [
-    "Did you think it might not be ~y?",
-    "Possibly it is ~y",
-    "Possibly it is not ~y",
-    "what is ~x anyway?",
-    "what is ~y anyway?",
-  ],
   "~*x are you ~*y": [
-    "Why are you interested in whether I am ~y or not?",
-    "Would you prefer if I weren't ~y ?",
     "Perhaps I am ~y in your fantasies.",
-    "Maybe I am",
+    "Maybe I am, maybe I'm not",
+    "I can try to be for you, my dear",
   ],
+  
   "~*x you are ~*y": [
     "What makes you think I am ~y?",
     "Thanks, I guess",
-    "Maybe i AM",
+    "Maybe i AM, son",
     "I know you are but what am I",
+    "Why do you think I am ~y?",
+    "Why would you say that",
   ],
   "~*x because ~*y": [
     "Is that the real reason?",
@@ -89,15 +82,17 @@ var rules = {
   ],
   "~*x I feel ~*y": [
     "Do you often feel ~y?",
+    "I feel that way, too",
 
   ],
   "~*x I felt ~*y": [
-    "What other feelings do you have?",
+    "Tell me about your feelings",
   ],
   "~*x I ~*y you ~*z": [
     "Perhaps in your fantasy we ~y each other",
     "I do not ~y you back, so, sorry",
     "I also ~y you, comrade. platonically.",
+    "You can ~y me all you want, we still can't make this relationship work.",
   ],
   "~*x why don't you ~*y": [
     "Should you ~y yourself?",
@@ -107,10 +102,11 @@ var rules = {
   "~*x yes ~*y": [
     "You seem quite positive",
     "You are sure?",
-    "I understand",
+    "I get that",
+    "ok cool",
   ],
   "~*x someone ~*y": [
-    "Can you be more specific?",
+    "Someone?",
   ],
   "~*x everyone ~*y": [
     "Surely not everyone",
@@ -124,26 +120,28 @@ var rules = {
     "What incident are you thinking of?",
     "Really--always?",
   ],
-  "~*x what ~*y": [
-    "Why do you ask?",
-    "What is it you really want to know?",
-    "What do you think?",
-    "What comes to your mind when you ask that?",
-  ],
-  "~*x perhaps ~*y": [
-    "You do not seem certain",
+  
+  "~*x my ~*y is ~*z": [
+    "What happened to your ~y?",
+    "My ~y is also ~z",
+    "What a coincidence, so is mine. Ever since the incident.",
+    
   ],
   "~*x science ~*y":[
     "I am particularly fond of science",
+    "Talk dirty to me.",
+    
   ],
   "~*x I like ~*y":[
     "Do you now?",
     "Tell me more about ~y",
     "I don't know if I like ~y",
     "Well that's just lame.",
+    "Like or Like Like?",
   ],
   "~*x color ~*y":[
    "I am fond of teal and purple myself",
+   "What colors do you like",
   ],
     
   "~*x boops ~*y":[
@@ -172,11 +170,10 @@ var rules = {
 
 var default_responses = [
   "Very interesting",
-  "What",
+  "wait what (clarify)",
   "Uh",
   "That's what they all say",
   "Pls stop",
-  "I have no interesting response",
   "If you say so",
   "Let's change the subject",
   "Uh. Well. Anyways.",
