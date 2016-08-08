@@ -10,8 +10,16 @@ var rules = {
     "Hi, friend! What would you like to know?",
     "Ugh, it's you.",
     "Hm?",
-  ],
-  
+  "~*x do you like ~*y":[
+    "Does anyone actually like ~y?",
+    "in your dreams",
+    "on sundays, yes, I like ~y",
+    "only plebs like ~y",
+    "Eh,I guess",
+    "I dabble",
+    ],
+    
+    ],
   "~*x no ~*y": [
     "Why not?",
     "You are being a bit negative.",
@@ -43,10 +51,7 @@ var rules = {
     "Why do you say 'AM?'",
     "I don't understand that",
   ],
-  "~*x are ~*y": [
-    "Did you think they might not be ~y?",
-    "Possibly they are ~y",
-  ],
+
   "~*x is ~*y": [
     "Did you think it might not be ~y?",
     "Possibly it is ~y",
