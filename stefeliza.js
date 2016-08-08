@@ -43,11 +43,11 @@ var rules = {
     "Why do you say 'AM?'",
     "I don't understand that",
   ],
-  "~x are ~*y": [
+  "~*x are ~*y": [
     "Did you think they might not be ~y?",
     "Possibly they are ~y",
   ],
-  "~x is ~*y": [
+  "~*x is ~*y": [
     "Did you think it might not be ~y?",
     "Possibly it is ~y",
     "Possibly it is not ~y",
