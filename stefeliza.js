@@ -166,6 +166,21 @@ var rules = {
   "~*x sex *y":[
     "let's not go there",
     ],
+  
+  "~*x I will ~*y":[
+    "you will do no such thing",
+    "we will see about that",
+    "shake a magic 8 ball, chances are unlikely'",
+    ],
+    
+  "~*x cats ~*y":[
+    "I love every kind of cat.",
+    ],
+    
+  "~*x I love ~*y":[
+    "Honestly, who doesn't?",
+    "Love is a strong word, but hey, whatever makes you happy.",
+    ],
 };
 
 var default_responses = [
@@ -177,7 +192,9 @@ var default_responses = [
   "If you say so",
   "Let's change the subject",
   "Uh. Well. Anyways.",
-  "Uh well...anyhoo... what do you have strong feelings about?",
+  "And I care why?",
+  "That's what my mother always told me.",
+  
 ];
 
 function choice(lst) {
