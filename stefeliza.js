@@ -75,7 +75,7 @@ var rules = {
     "Perhaps I was ~y?",
     "What do you think?",
     "What if I had been ~y?",
-    "Possibly. Why do you ask?"
+    "Possibly. Why do you ask?",
   ],
   "~*x I can't ~*y": [
     "Maybe you could ~y now",
@@ -83,11 +83,11 @@ var rules = {
     "You could try.",
   ],
   "~*x I feel ~*y": [
-    "Do you often feel ~y?"
+    "Do you often feel ~y?",
 
   ],
   "~*x I felt ~*y": [
-    "What other feelings do you have?"
+    "What other feelings do you have?",
   ],
   "~*x I ~*y you ~*z": [
     "Perhaps in your fantasy we ~y each other",
@@ -175,7 +175,7 @@ var default_responses = [
   "If you say so",
   "Let's change the subject",
   "Uh. Well. Anyways.",
-  "Uh well...anyhoo... what do you have strong feelings about?"
+  "Uh well...anyhoo... what do you have strong feelings about?",
 ];
 
 function choice(lst) {
