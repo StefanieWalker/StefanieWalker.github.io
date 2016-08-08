@@ -181,6 +181,11 @@ var rules = {
     "Honestly, who doesn't?",
     "Love is a strong word, but hey, whatever makes you happy.",
     ],
+  "~*x How are you ~*y":[
+    "Never been better. You?",
+    "I don't want to talk about it.",
+    "hand-wavey",
+    ],
 };
 
 var default_responses = [
