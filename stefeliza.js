@@ -154,8 +154,8 @@ var rules = {
     "Tv shows? I am a fan of Scrubs, GoT, The Office, Steven Universe, and Supernatural.",
   ],
   
-"~*x hate *y":[
-  why all the negatibity",
+"~*x hate ~*y":[
+  "why all the negativity",
   "hate is a strong word",
   "why do you hate ~y",
   ],
