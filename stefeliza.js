@@ -10,7 +10,7 @@ var rules = {
     "Hi, friend! What would you like to know?",
     "Ugh, it's you.",
     "Hm?",
-    ].
+    ],
   "~*x do you like ~*y":[
     "Does anyone actually like ~y?",
     "in your dreams",
