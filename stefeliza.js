@@ -63,7 +63,12 @@ var rules = {
     "I know you are but what am I",
     "Why do you think I am ~y?",
     "Why would you say that",
-  ],
+    "I can't argue with that.",
+    "Touche.",
+    "You are incorrigible.",
+    "I've heard worse I guess.",
+    
+      ],
   "~*x because ~*y": [
     "Is that the real reason?",
     "What other reasons might there be?",
@@ -186,6 +191,9 @@ var rules = {
     "I don't want to talk about it.",
     "hand-wavey",
     ],
+   
+  
+    
 };
 
 var default_responses = [
@@ -199,6 +207,8 @@ var default_responses = [
   "Uh. Well. Anyways.",
   "And I care why?",
   "That's what my mother always told me.",
+  "I honestly could not care less",
+  "If you say so.",
   
 ];
 
