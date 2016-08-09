@@ -195,7 +195,9 @@ var rules = {
     "hand-wavey",
     ],
    
-  
+  "~*x What is ~*y":[
+    "what IS ~y? Who are we? Why are we here?",
+    ],
     
 };
 
