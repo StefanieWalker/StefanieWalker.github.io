@@ -154,8 +154,8 @@ var rules = {
     
   "~*x boops ~*y":[
    "Boops boops in a bucket",
-    "BOOPS",
     "BOOPS BOOPS IN A BUCKET",
+    "Boops boops are also known as bogues but that is much less exciting",
   ],
   "~*x hard ~*y":[
     "That's what she said",
