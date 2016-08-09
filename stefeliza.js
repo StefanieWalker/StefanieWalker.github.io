@@ -12,7 +12,10 @@ var rules = {
     "Suh.",
     "Howdy hey, what would you like to say?",
     ],
-    
+  
+  "~*x your name ~*y":[
+    "My name's Stefanie, in theory. Or in code, rather.",
+    ],
   "~*x do you like ~*y":[
     "Does anyone actually like ~y?",
     "in your dreams",
